@@ -1,0 +1,9 @@
+Q1 : 
+create database user_db
+create table kid_table(firstName varchar(100), lastName varchar(100), age int);
+
+create table adult_table(firstName varchar(100), lastName varchar(100), age int);
+
+Q2 : 
+book_info_table is created via the spring as there is entity class named as BooKEntity
+Query for the table can be create table book_info_tbl(id int primary key auto_increment, book_name varchar(45), int cost);
